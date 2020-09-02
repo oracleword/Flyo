@@ -67,12 +67,14 @@ p.desc {
 }
 ._text{
     padding: 10px;
+    border-radius: 4px solid white;
 }
 button.p_btn {
     padding: 10px 40px;
     background-color: hsl(224, 93%, 58%);
     border: 2px solid hsl(224, 93%, 58%);
     color: #fff;
+    border-radius: 4px;
     
 }
 ._bann {
@@ -80,6 +82,7 @@ button.p_btn {
     justify-content: space-between;
     margin-top: 110px;
     background-color: hsl(240, 75%, 98%);
+    height: 750px;
 }
 .content-2{
     margin-top: -20px;
@@ -87,21 +90,48 @@ button.p_btn {
 h1._head {
     margin-top: 50px;
     margin-left: 91px;
-    font-size: 30px;
+    font-size: 36px;
 }
 p.dense {
     padding-left: 89px;
     white-space: nowrap;
-    font-size: 16px;
-
+    font-size: 14px;
 }
-div.content_3{
-    border: 2px solid #fff;
-    box-shadow: 0px 0px 1px 1px #f4f4f4;
-     border-radius: 10px;
-     background-color: white;
-     margin-left: 20px;
-     padding-right: 5px;
+.fylo-works{
+    color: hsl(170, 45%, 43%);
+    font-size: 20px;
+    margin-left: 85px;
+}
+.card{
+    margin-left:60px ;
+    margin-top:50px ;
+}
+.card{
+    margin-left:80px ;
+    background: white;
+    width: 370px;
+    
+    border-radius: 9px;
+    padding: 38px;
+    color:hsl(238, 22%, 44%);
+}
+.card-img{
+    border-radius: 75px;
+}
+.kylie-info{
+    margin: -127px 0px -7px 156px;
+}
+.kylie{
+    font-size: 25px;
+    color: hsl(243, 87%, 12%);
+}
+.ceo{
+    margin-top:-23px ;
+}
+img.mock_img{
+    width: 550px;
+    margin-top: 70px;
+    margin-right: 80px;
 }
 .img-grow{
     margin-bottom: -120px;
@@ -110,60 +140,62 @@ div.content_3{
 ._banner1 {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
     background-color: hsl(238, 22%, 44%);
 }
 .content-wrapper1{
-    margin-top: 40px;
     color: white;
+    margin:20px;
 }
 h1._header1 {
-    margin-top: 108px;
-    margin-left: 91px;
+    margin-left: 65px;
     font-size: 35px;
 }
 p.desc1 {
-    padding-left: 89px;
+    padding-left: 65px;
     white-space: nowrap;
     font-size: 16px;
 
 }
 ._fuel{
     
-    margin-right: -80px;
-    margin-top: 100px;
+    margin-right: 90px;
     padding: 50px 100px;
+    margin: 20px;
 }
 ._sly{
     padding: 15px;
-    padding-right: 300px;
+    padding-right: 200px;
+    border-radius: 8px solid white;
 }
 button.p_bay {
     padding: 15px;
-    padding-right: 150px;
+    padding-right: 30px;
     background-color: hsl(224, 93%, 58%);
     border: 2px solid hsl(224, 93%, 58%);
     color: #fff;
     margin-left: -2px;
     margin-top: 10px;
+    border-radius: 4px;
   }
   ._footer {
     background: hsl(243, 87%, 12%);
     display: flex;
     justify-content: space-between;
     color: white;
+    height: 300px;
+
     
 }
 .footer_logo{
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 84px;
-    filter: invert(100%);
+    filter: invert(700%);
     
 }
 .sub_addr{
    margin-left: 90px;
 }
-ul.footer-link{
+ul.footer-i{
     list-style: none;
     margin-right: 50px;
     margin-top: 170px;
@@ -184,6 +216,11 @@ ul.icon-list{
 li.icon-icon{
     margin-left: 10px;
     margin-right: 10px;
+    color: white;
+}
+.nik li a{
+    text-decoration: none;
+    color: white;
 }
 /*li.but1{
 	padding: 0px 30px;
@@ -194,3 +231,10 @@ li.but2{
 li.but3{
 	padding: 0px 30px;
 -}
+div.content_3{
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 1px 1px #f4f4f4;
+     border-radius: 10px;
+     background-color: white;
+     margin-left: 20px;
+     padding-right: 5px;
