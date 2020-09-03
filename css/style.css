@@ -14,11 +14,7 @@ img.logo-img {
     height: 30px;
     margin-left: 50px;
 }
-div._btn{
-	margin-right: 78px;
-	display: flex;
-	text-decoration: none;
-}
+
 .link-box{
 	text-align: center;
 	position: relative;
@@ -51,7 +47,7 @@ img.mock-img {
 }
 h1._header {
     margin-top: 108px;
-    margin-left: 91px;
+    margin-left: 85px;
     font-size: 35px;
 }
 p.desc {
@@ -97,6 +93,7 @@ p.dense {
     white-space: nowrap;
     font-size: 14px;
 }
+
 .fylo-works{
     color: hsl(170, 45%, 43%);
     font-size: 20px;
@@ -136,6 +133,7 @@ img.mock_img{
 .img-grow{
     margin-bottom: -120px;
     margin-top: 100px;
+    width: 1350px;
 }
 ._banner1 {
     display: flex;
@@ -154,6 +152,7 @@ p.desc1 {
     padding-left: 65px;
     white-space: nowrap;
     font-size: 16px;
+    margin-top: -10px;
 
 }
 ._fuel{
@@ -161,6 +160,7 @@ p.desc1 {
     margin-right: 90px;
     padding: 50px 100px;
     margin: 20px;
+    justify-content: space-between;
 }
 ._sly{
     padding: 15px;
@@ -190,6 +190,7 @@ button.p_bay {
     margin-top: 80px;
     margin-left: 84px;
     filter: invert(700%);
+    width: 100px;
     
 }
 .sub_addr{
@@ -198,19 +199,20 @@ button.p_bay {
 ul.footer-i{
     list-style: none;
     margin-right: 50px;
-    margin-top: 170px;
+    margin-top: 90px;
     color: white;  
+    line-height: 30px;
 }
 .footter_klin{
     list-style: none;
-    margin-right: 300px;
-    margin-top: 170px;
+    margin-top: 90px;
+    line-height: 30px;
     
 }
 ul.icon-list{
     list-style: none;
     display: flex;
-    margin-top: 170px;
+    margin-top: 90px;
     margin-right: 100px;
 }
 li.icon-icon{
